@@ -26,6 +26,9 @@ h2 {
 	text-align: center;
 	text-decoration: none;
 }
+.cntAlign:hover {
+	color:#6db3ff;
+}
 .cntAlign a {
 	text-decoration: none;
 }
