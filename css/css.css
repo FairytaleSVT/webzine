@@ -4,6 +4,10 @@
 	font-family: 'Montserrat', arial;
 }
 
+div#preload {
+	display:none;
+}
+
 .artist h3 , h2 {
 	font-family: 'Raleway';
 	font-weight: 700;
