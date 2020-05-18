@@ -42,6 +42,10 @@ h2 {
 	border: transparent;
 	border-radius: 10px;
 }
+.Hclk h3 a:hover {
+	background-color: #669cc2;
+}
+
 .bluee {
 	color:#6db3ff;
 }
