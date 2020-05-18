@@ -27,12 +27,6 @@ h2 {
 	text-decoration: none;
 }
 .cntAlign a {
-	color:#F4DAC9;
-}
-.cntAlign a:hover {
-	color:#F4DAC9;
-}
-.cntAlign a {
 	text-decoration: none;
 }
 
@@ -40,6 +34,13 @@ h2 {
 	z-index:2;
 	position: relative;
 	top:-2em;
+}
+.Hclk a {
+	background-color: #6db3ff;
+	color: #fff;
+	padding:.2rem .3rem;
+	border: transparent;
+	border-radius: 10px;
 }
 .bluee {
 	color:#6db3ff;
