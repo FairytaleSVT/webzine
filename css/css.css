@@ -25,6 +25,8 @@ h2 {
 .cntAlign {
 	text-align: center;
 	text-decoration: none;
+}
+.cntAlign a {
 	color:#F4DAC9;
 }
 .cntAlign a:hover {
