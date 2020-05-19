@@ -19,9 +19,6 @@
   
 <!-- ZOOOOOM -->
 <script type="text/javascript" src="js/pinch-zoom.umd.js"></script>
-<script type="text/javascript">
-    new window.PinchZoom.default(document.querySelector('div.zoom5'), {tapZoomFactor:1.5});
-</script>
 <!-- FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -166,7 +163,9 @@ document.oncontextmenu =new Function("return false;")
 </footer>
 </div>
 
-
+<script type="text/javascript">
+    new window.PinchZoom.default(document.querySelector('div.zoom5'), {tapZoomFactor:1.5});
+</script>
 </body>
 </html>
 
