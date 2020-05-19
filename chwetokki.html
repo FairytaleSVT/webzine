@@ -16,9 +16,12 @@
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="stylesheet" type="text/css" href="css/css.css">
 <link rel="stylesheet" type="text/css" href="css/jen.css">
-
+  
 <!-- ZOOOOOM -->
 <script type="text/javascript" src="js/pinch-zoom.umd.js"></script>
+<script type="text/javascript">
+    new window.PinchZoom.default(document.querySelector('div.zoom5'), {tapZoomFactor:1.5});
+</script>
 <!-- FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -31,6 +34,7 @@ document.oncontextmenu =new Function("return false;")
 </head>
 
 <body class="jen" onselectstart="return false">
+  <div id="preload"><img src="img/art/chwetokki.jpg"/></div>
 <div class="intro container-fluid">
   <div class="space d-block d-lg-none"></div>
   <div class="space d-block d-lg-none"></div>
@@ -164,9 +168,6 @@ document.oncontextmenu =new Function("return false;")
 
 
 </body>
-<script type="text/javascript">
-    new window.PinchZoom.default(document.querySelector('div.zoom5'), {tapZoomFactor:1.5});
-</script>
 </html>
 
 
