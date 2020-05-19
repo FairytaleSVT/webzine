@@ -4,10 +4,6 @@
 	font-family: 'Montserrat', arial;
 }
 
-div#preload {
-	display:none;
-}
-
 .artist h3 , h2 {
 	font-family: 'Raleway';
 	font-weight: 700;
@@ -40,11 +36,12 @@ h2 {
 	top:-2em;
 }
 .Hclk h3 a {
-	background-color: #6db3ff;
-	color: #fff;
-	padding:.2rem .3rem;
-	border: transparent;
-	border-radius: 10px;
+	background-image: url(../img/btn.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0.5rem 1rem;
+    color: #fff;
 }
 .bluee {
 	color:#6db3ff;
