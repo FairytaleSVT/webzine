@@ -56,6 +56,9 @@ h2 {
 }
 }
 
+.preload {
+	display:none;
+}
 .goldee {
 	background-image:url(../img/mapbg.jpg);
 }
