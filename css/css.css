@@ -37,11 +37,7 @@ h2 {
 }
 .Hclk h3 a {
 	background-image: url(../img/btn.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 0.5rem 1rem;
-    color: #fff;
+	color: #fff;
 }
 .bluee {
 	color:#6db3ff;
@@ -49,14 +45,13 @@ h2 {
 #videoBG , #videoSM {
 	display: none;
 }
-.wavediv svg { position:relative; top:1px; left:0; height:100%; width:100% }
+
 @media (max-width: 876px){
 .resp-text {
 	text-align: center !important;
 }
 }
-
-#preload {
+.preload {
 	display:none;
 }
 .goldee {
@@ -67,7 +62,7 @@ h2 {
 	margin-bottom: auto;
 }
 .my-auto h1 {
-	font-family: 'Satisfy', cursive;
+	font-family: 'Bad Script', cursive;
 }
 .Ctitle {
 	font-family: 'Kaushan Script', cursive;
@@ -170,8 +165,8 @@ h2 {
  }
 
  .nav:hover {
- 	color:#c0ec22;
- 	background-color: #cead5b;
+    color: #222;
+    background-color: #8FDDEF;
  }
 
  footer {
