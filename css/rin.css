@@ -46,6 +46,7 @@ body{
 .puff {
 	position: relative;
 	right: -10%
+	width: 15em;
 }
 
 .puff-l {
@@ -53,17 +54,20 @@ body{
 	right: 20%;
 	-webkit-animation: rotation2 5s infinite linear;
 	-webkit-animation-delay:300ms;
+	 width: 15em;
 }
 .puff-ls {
 	position: relative;
 	right: -10%;
 	-webkit-animation: rotation2 5s infinite linear;
+	width: 15em;
 }
 .puff-lb {
 	position: relative;
 	right: -4%;
 	-webkit-animation: rotation2 5s infinite linear;
 	-webkit-animation-delay:400ms;
+	width: 15em;
 }
 
 .cntn {
