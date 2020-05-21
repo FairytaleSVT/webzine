@@ -1,0 +1,126 @@
+body{
+	background-color: #1D182C;
+	color:#fff;
+	font-family: 'Nanum Brush Script', cursive;
+}
+.small-space {
+	height:2rem;
+}
+.basket{
+	-webkit-animation:updown 1.5s infinite ease-out;
+}
+.basket img{
+	    width: 13rem;
+}
+.intro {
+	background-color:#1D182C;overflow: hidden;
+}
+.art-trans {
+	background:#1D182C;
+background: linear-gradient(180deg,#1D182C 0%, rgb(120, 140, 179) 100%);
+padding: 7%
+}
+.blubg, .wavediv {
+	background-color:  rgb(120, 140, 179) ;
+	color: #fff
+}
+.intro h1 {
+		font-weight: 300;
+		font-family: 'Nanum Brush Script', cursive;
+}
+.artist {
+	color:#fff;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes rotation2 {
+		0% {
+				-webkit-transform: rotate(-5deg);
+		}
+		50% {
+				-webkit-transform: rotate(20deg);
+		}
+		100% {
+				-webkit-transform: rotate(-5deg);
+		}
+}
+.dominance {
+	position: relative;
+	z-index:2;
+	padding: 5%
+}
+.puff {
+	position: relative;
+	right: -10%
+}
+
+.puff-l {
+	position: relative;
+	right: 20%;
+	-webkit-animation: rotation2 5s infinite linear;
+	-webkit-animation-delay:300ms;
+}
+.puff-ls {
+	position: relative;
+	right: -10%;
+	-webkit-animation: rotation2 5s infinite linear;
+}
+.puff-lb {
+	position: relative;
+	right: -4%;
+	-webkit-animation: rotation2 5s infinite linear;
+	-webkit-animation-delay:400ms;
+}
+
+.cntn {
+	padding-top: 8%;
+}
+.wave {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background: #1b242d;
+}
+.wavediv svg { position:relative; top:0px; left:0; height:100%; width:100% }
+
+/* ANM */
+.wavy1 {
+	-webkit-animation: updown 1.5s infinite linear;
+}
+
+
+
+@-webkit-keyframes updown {
+		0% {
+				-webkit-transform: translateY(1px);
+		}
+		50% {
+				-webkit-transform: translateY(6px);
+		}
+		100% {
+			-webkit-transform: translateY(1px);
+		}
+}
+[data-aos="fadingation"] {
+	opacity: 1;
+  transition-property: transform, opacity;
+ }
+ [data-aos="fadingation"].aos-animate {
+    transform: translateX(-30%);
+    opacity: 0;
+}
+[data-aos="fadingation-f"] {
+	opacity: 1;
+  transition-property: transform, opacity;
+ }
+ [data-aos="fadingation-f"].aos-animate {
+    transform: translateX(30%);
+    opacity: 0;
+}
