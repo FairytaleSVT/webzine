@@ -18,6 +18,7 @@ margin-top: 5rem;
 }
 .clouds img {
 	-webkit-animation:rotation2 3s infinite linear;
+	    opacity: .5;
 }
 
 .clouds img:nth-child(1){
