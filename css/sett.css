@@ -3,15 +3,12 @@ body{
 	color:#222;
 font-family: 'Metamorphous', cursive;	
 }
-.rin {
-
-}
 .intro {
 	background-color:#e7e7e7;overflow: hidden;
 }
 .misy{
     transform: translateY(-70px);
-    animation: rotation2 5s infinite;
+    animation: leftright 5s infinite;
     }
 .mountain, .mountain-l {
 	position: relative;
