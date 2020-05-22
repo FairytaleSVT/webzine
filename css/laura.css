@@ -13,10 +13,6 @@ body{
 	width: 13rem;
     -webkit-animation: updown 1.75s infinite ease-in-out;
 }
-.potion, .potion2, .potion3 {
-	max-width:80%;
-	height: auto
-}
 .potion2 {       transform: rotate(-25deg);
     position: relative;
     left: -5rem;}
