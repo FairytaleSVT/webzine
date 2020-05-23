@@ -56,7 +56,8 @@ padding: 7%
 .art-trans {
 	background:rgb(255, 244, 238);
 background: linear-gradient(180deg,rgb(255, 244, 238) 0%, rgb(120, 140, 179) 100%);
-padding: 4%
+padding: 4%;
+	    margin: -1px;
 }
 .blubg, .wavediv {
 	background-color:  rgb(120, 140, 179) ;
