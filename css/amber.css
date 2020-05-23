@@ -1,0 +1,107 @@
+body{
+	background-color:#040709;
+	color:#fff;
+	font-family: 'Exo 2', sans-serif;
+}
+.small-space {
+	height:2rem;
+}
+.intro {
+	background-color:#040709;overflow: hidden;
+	color: #fff
+}
+@media(max-width:460px){
+ h2{
+	font-size:240%
+}
+}
+.wavey img{
+	width: 30%
+}
+.wavey img:nth-child(odd){
+	-webkit-animation:updown 2s infinite linear;
+	padding-bottom: : 2rem
+}
+.wavey img:nth-child(even){
+	-webkit-animation:updown 2s infinite linear;
+	-webkit-animation-delay:700ms;
+	padding-top: 5rem
+}
+.intro h1 {
+		font-weight: 300;
+		font-family: 'Exo 2', sans-serif;
+		font-size: 2rem
+}
+.artist {
+	color:#fff;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes rotation2 {
+		0% {
+				-webkit-transform: rotate(-20deg);
+		}
+		50% {
+				-webkit-transform: rotate(-18.5deg);
+		}
+		100% {
+				-webkit-transform: rotate(-20deg);
+		}
+}
+.dominance {
+	position: relative;
+	z-index:2;
+	padding: 5%
+}
+
+.cntn {
+	padding-top: 8%;
+}
+.wave {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background: #1b242d;
+}
+.wavediv svg { position:relative; top:0px; left:0; height:100%; width:100% }
+
+/* ANM */
+.wavy1 {
+	-webkit-animation: updown 1.5s infinite linear;
+}
+
+.efx ,.efx2 {
+	position: relative;
+    padding-bottom: 2em;
+}
+.efx2 img {
+	position: absolute;
+    top: -12.2rem;
+    left: -6rem;
+    -webkit-animation: rotation2 5s infinite linear;
+}
+
+.efx img {
+	position: absolute;
+    top: -6.2rem;
+    -webkit-animation: rotation2 5s infinite linear;
+}
+
+@-webkit-keyframes updown {
+		0% {
+				-webkit-transform: translate(0px,0px);
+		}
+		50% {
+				-webkit-transform: translate(6px,-6px);
+		}
+		100% {
+			-webkit-transform: translate(0px,0px);
+		}
+}
