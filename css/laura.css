@@ -3,17 +3,25 @@ body{
 	color:#3a4538;
 	font-family:  cursive;	
 }
+@media(max-width: 460px){
+	.potion img{width: 40%}
+	.potion2 img, .potion3 img{width:25%}
+h2 {
+	    font-size: 210%!important;
+}}
 .small-space {
 	height:2rem;
 }
 .intro {
 	background-color:rgb(196, 216, 179);overflow: hidden;
 }
+
 .potion img{
 	width: 13rem;
     -webkit-animation: updown 1.75s infinite ease-in-out;
 }
-.potion2 {       transform: rotate(-25deg);
+.potion2 {       
+    transform: rotate(-25deg);
     position: relative;
     left: -5rem;}
 .potion2 img{
