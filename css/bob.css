@@ -16,6 +16,7 @@ body{
     padding-top: 18.35%;
     overflow: hidden;
 }
+.wavediv svg { position:relative; top:1px; left:0; height:100%; width:100% }
 
 @-webkit-keyframes rotation {
 		from {
