@@ -8,7 +8,7 @@ h2 {
 	    font-size: 210%!important;
 }}
 @media(max-width: 768px){
-	.potion img{width: 40%}
+	.potion img{width: 36%}
 	.potion2 img, .potion3 img{width:25%}
 }
 .small-space {
@@ -19,7 +19,6 @@ h2 {
 }
 
 .potion img{
-	width: 13rem;
     -webkit-animation: updown 1.75s infinite ease-in-out;
 }
 .potion2 {       
