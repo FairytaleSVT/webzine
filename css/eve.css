@@ -56,28 +56,6 @@ padding: 7%
 	z-index:2;
 	padding: 5%
 }
-.puff {
-	position: relative;
-	right: -10%
-}
-
-.puff-l {
-	position: relative;
-	right: 20%;
-	-webkit-animation: rotation2 5s infinite linear;
-	-webkit-animation-delay:300ms;
-}
-.puff-ls {
-	position: relative;
-	right: -10%;
-	-webkit-animation: rotation2 5s infinite linear;
-}
-.puff-lb {
-	position: relative;
-	right: -4%;
-	-webkit-animation: rotation2 5s infinite linear;
-	-webkit-animation-delay:400ms;
-}
 
 .cntn {
 	padding-top: 8%;
