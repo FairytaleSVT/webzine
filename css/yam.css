@@ -19,9 +19,14 @@ h2 {
 		font-family: 'Donegal One', serif;
 		font-size: 2rem
 }
-.intro-trans div {
-	padding:.75%;
+	.intro-trans div {
+	padding:3%;
 }
+
+@media(min-width:768px){
+.intro-trans div {
+	padding:1.75%;
+}}
 .obj {
 	-webkit-animation:updown 2s infinite ease-in-out;
 }
