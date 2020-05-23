@@ -1,0 +1,122 @@
+body{
+	background-color:#3A7A94;
+	color:#fff;
+	font-family: 'Donegal One', serif;
+}
+@media(max-width: 460px){
+h2 {
+	    font-size: 210%!important;
+}}
+.small-space {
+	height:2rem;
+}
+.intro {
+	background-color:#fff5bd;overflow: hidden;
+	color: #222
+}
+.intro h1 {
+		font-weight: 300;
+		font-family: 'Donegal One', serif;
+		font-size: 2rem
+}
+.intro-trans div {
+	padding:.75%;
+}
+.obj {
+	-webkit-animation:updown 2s infinite ease-in-out;
+}
+.intro-trans div:nth-child(-3n+9){
+background-color:#6d535f;
+}
+.intro-trans div:nth-child(-3n+8){
+background-color:#F1426F;
+}
+.intro-trans div:nth-child(-3n+10){
+background-color:#ccc;
+}
+.intro-trans div:nth-last-child(-4n+8){
+background-color:#FFED87;
+}
+.intro-trans div:nth-last-child(3){
+background-color:#5CE1F4;
+}
+.intro-trans div:nth-last-child(1){
+background-color:#8CBDDD;
+}
+.intro-trans div:nth-last-child(2){
+background-color:#DEF4F6;
+}
+.artist {
+	color:#fff;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes rotation2 {
+		0% {
+				-webkit-transform: rotate(-5deg);
+		}
+		50% {
+				-webkit-transform: rotate(20deg);
+		}
+		100% {
+				-webkit-transform: rotate(-5deg);
+		}
+}
+.dominance {
+	position: relative;
+	z-index:2;
+	padding: 5%
+}
+
+.cntn {
+	padding-top: 8%;
+}
+.wave {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background: #1b242d;
+}
+.wavediv svg { position:relative; top:0px; left:0; height:100%; width:100% }
+
+/* ANM */
+.wavy1 {
+	-webkit-animation: updown 1.5s infinite linear;
+}
+
+
+
+@-webkit-keyframes updown {
+		0% {
+				-webkit-transform: translateY(1px);
+		}
+		50% {
+				-webkit-transform: translateY(6px);
+		}
+		100% {
+			-webkit-transform: translateY(1px);
+		}
+}
+[data-aos="fadingation"] {
+	opacity: 1;
+  transition-property: transform, opacity;
+ }
+ [data-aos="fadingation"].aos-animate {
+    transform: translateX(-30%);
+    opacity: 0;
+}
+[data-aos="fadingation-f"] {
+	opacity: 1;
+  transition-property: transform, opacity;
+ }
+ [data-aos="fadingation-f"].aos-animate {
+    transform: translateX(30%);
+    opacity: 0;
+}
