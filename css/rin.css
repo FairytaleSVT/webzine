@@ -4,9 +4,10 @@ body{
 	font-family: 'Nanum Pen Script', cursive;
 	
 }
-.rin {
-
-}
+@media(max-width: 460px){
+h2 {
+	    font-size: 210%!important;
+}}
 .intro {
 	background-color:#03112e;overflow: hidden;
 }
