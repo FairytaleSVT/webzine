@@ -55,38 +55,27 @@ body{
     transform: translate3d(-1px, 0, 0);
     opacity: 1;color:white;
   } 15%{color:white;}
-  45%, 75%{transform: translate3d(-1px, 0, 0);color:red;}
+  45%, 75%{color:red;}
    100% {
     transform: translate3d(-1px, 0, 0);
     opacity: 1;color:black;
   }
-  3% {
-    transform: translate3d(2px, 2px, 0);
-  }
   8%, 25%{
-    transform: translate3d(-3px, 0, 0);
     opacity: 1;
   }
   21%,25%,89%{
             opacity:0;
         }
   19%,23%,27%,87%,91%{opacity:1;}
-  12%, 32% {
-    transform: translate3d(3px, 0, 0);
-  }
 }
 @-webkit-keyframes blink {
         0%, 100%{
             opacity:1;
-            transform: translatey(1px);
         }
         21%,25%,89%{
             opacity:0;
         }
         19%,23%,27%,87%,91%{
             opacity:1;
-        }
-        50%{
-            transform: translatey(3px);
         }
 }
