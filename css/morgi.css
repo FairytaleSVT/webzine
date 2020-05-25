@@ -1,0 +1,110 @@
+body{
+	background-color:#0D1716;
+	color:#fff;
+	font-family: 'Arya', sans-serif;
+}
+.small-space {
+	height:2rem;
+}
+.intro {
+	background-color:#0D1716;overflow: hidden;
+	color: #fff
+}
+.intro:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+    height: 100%;
+    background-size: contain;
+    background-image: url(../img/rain.webp);
+}
+.intro h1 {
+		font-weight: 300;
+		font-family: 'Arya', sans-serif;
+		font-size: 2rem
+}
+.sparks{position:relative;padding: 4rem 0;}
+.sparks img:nth-child(1){
+	position: absolute;
+    left: 10rem;
+    top: 8rem;-webkit-animation:flash 5s infinite linear;
+}
+.big-space{height: 12rem}
+.sparks img:nth-child(2){
+	transform: scale(-.75) rotate(25deg);
+    position: absolute;
+    right: 6rem;
+    opacity:0;
+    top:0;-webkit-animation:flash 4s infinite linear;-webkit-animation-delay:900ms;
+}
+.artist {
+	color:#fff;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes rotation2 {
+		0% {
+				-webkit-transform: rotate(-5deg);
+		}
+		50% {
+				-webkit-transform: rotate(20deg);
+		}
+		100% {
+				-webkit-transform: rotate(-5deg);
+		}
+}
+.dominance {
+	position: relative;
+	z-index:2;
+	padding: 5%
+}
+
+.cntn {
+	padding-top: 8%;
+}
+.wave {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background: #1b242d;
+}
+.wavediv svg { position:relative; top:0px; left:0; height:100%; width:100% }
+
+/* ANM */
+.wavy1 {
+	-webkit-animation: updown 1.5s infinite linear;
+}
+
+
+
+@-webkit-keyframes updown {
+		0% {
+				-webkit-transform: translateY(1px);
+		}
+		50% {
+				-webkit-transform: translateY(6px);
+		}
+		100% {
+			-webkit-transform: translateY(1px);
+		}
+}
+
+@-webkit-keyframes flash {
+	0%,16%{
+		opacity:1;
+	}
+	3%,14%,18%, 98%{
+		opacity:0;
+	}
+}
