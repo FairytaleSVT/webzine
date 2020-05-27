@@ -1,0 +1,76 @@
+body{
+	background-color: #54311E;
+	color:#fff;
+	font-family: 'Balsamiq Sans', cursive;
+	
+}
+.intro {
+	background-color:#54311E;overflow: hidden;
+}
+.intro h1 {
+		font-weight: 300;
+		font-family: 'Balsamiq Sans', cursive;
+		-webkit-animation:shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+.corn {
+	-webkit-animation:updown 1.5s infinite;
+}
+.dominance .flip {
+	transform: scale(-1);
+}
+.dominance h1 img {
+	padding: 1rem
+}
+.artist {
+	color:#fff;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes rotation2 {
+		0% {
+				-webkit-transform: rotate(-5deg);
+		}
+		50% {
+				-webkit-transform: rotate(20deg);
+		}
+		100% {
+				-webkit-transform: rotate(-5deg);
+		}
+}
+.dominance {
+	position: relative;
+	z-index:2;
+	padding: 5%
+}
+.cntn {
+	padding-top: 8%;
+}
+.wave {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background: #1b242d;
+}
+.wavediv svg { position:relative; top:0px; left:0; height:100%; width:100% }
+
+/* ANM */
+
+
+@-webkit-keyframes updown {
+		0% {
+				-webkit-transform: translateY(1px);
+		}
+		50% {
+				-webkit-transform: translateY(6px);
+		}
+		100% {
+			-webkit-transform: translateY(1px);
+		}
+}
