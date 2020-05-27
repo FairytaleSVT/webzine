@@ -9,21 +9,21 @@ body{
 }
 .intro h1 {
 		font-weight: 300;
+		padding: 2rem;
 		font-family: 'Balsamiq Sans', cursive;
 		-webkit-animation:shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
 .corn {
 	-webkit-animation:updown 1.5s infinite;
 }
-.dominance .flip {
-	transform: scale(-1);
+@media(max-width:460px){
+	.corn {width: 38vmin;}
 }
-.dominance h1 img {
-	padding: 1rem
+
+.dominance img {
+	width: 100%;
 }
-.artist {
-	color:#fff;
-}
+
 
 @-webkit-keyframes rotation {
 		from {
