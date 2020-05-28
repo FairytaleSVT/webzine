@@ -79,7 +79,7 @@ background: linear-gradient(180deg, rgba(252,207,142,1) 0%, rgba(79,140,197,1) 1
 .cntn {
 	padding-top: 8%;
 }
-.wavediv svg { position:relative; top:0px; left:0; height:100%; width:100% }
+.wavediv svg { position:relative; top:1px; left:0; height:100%; width:100% }
 .wave {
     position: relative;
     width: 100%;
