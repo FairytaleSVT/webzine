@@ -16,6 +16,9 @@ body{
 	background-color:#5A2D26;overflow: hidden;
 	color:#fff;
 }
+.porridge {
+	-webkit-animation:updown infinite linear 2s;
+}
 .art-trans {
 	background:#1D182C;
 background: linear-gradient(180deg,#5A2D26 0%, #fff 100%);
